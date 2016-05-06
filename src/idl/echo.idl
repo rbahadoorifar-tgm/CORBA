@@ -1,0 +1,11 @@
+#ifndef __CALC_IDL__
+#define __CALC_IDL__
+module calc {
+    interface Calculator {
+        long addition(in long number1, in long number2);
+        long subtraction(in long number1, in long number2);
+        long multiplication(in long number1, in long number2);
+        long division(in long number1, in long number2);
+    };
+};
+#endif  // __CALC_IDL__
